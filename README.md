@@ -41,7 +41,7 @@ The search radius greatly affects the results. If it is too big, wrong `blob_fea
 
 ### Results
 
-https://github.com/fpenzar/water_speed_detection/assets/49754912/e196ab4a-3099-478f-852f-a83fbaf7befc
+![ezgif com-optimize](https://github.com/fpenzar/water_speed_detection/assets/49754912/a4fc9d14-72e6-4869-8ba2-2c1f9e8a9d3a)
 
 ### Benchmarking
 
