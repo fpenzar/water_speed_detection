@@ -17,7 +17,7 @@ After the preprocessing, a binary image is obtained. Background is black, waves 
 
 ### Extracting blob features
 
-From the binary image, only white pixels are considered. A `blob_feature` is a structure representing all connected white pixels (a single wave, a single edge). Two white pixels are connected if they are neighbours (distance of 1), on the diagonals or to the left, right, up or down. For each `blob_feature` its center, weight (number of white pixels) and shape (ration of height/width) are calculated. 
+From the binary image, only white pixels are considered. A `blob_feature` is a structure representing all connected white pixels (a single wave, a single edge). Two white pixels are connected if they are neighbours (distance of 1), on the diagonals or to the left, right, up or down.
 
 ### Pairing features
 
@@ -37,7 +37,7 @@ If the flow detection setting is set to `autodetect`, the algorithm automaticall
 
 ### Determining the search radius
 
-The search radius greatly affects the results. If it is too big, wrong `blob_features` are paired with `features` making the calculated speed too big. `mean` and `median` speed is calculated after every second for the `speed` list. It was observed that when search radius is not correct, `mean` and `median` are very different. When the search radius is correct, `mean` and `median` are roughly the same. The search radius is adjusted proportionally to `mean` - `median` relation. If `mean` > `median` search radius is decreased. If `mean` < `median` search radius is increased. If the search radius becomes too small ( < 5 pixels) it is increased to a high number. Relation between the search radius and time needed to pair `features` and `blob_features` is constant, it does not have an effect on it.
+The search radius greatly affects the results. If it is too big, wrong `blob_features` are paired with `features` making the calculated speed too big. `mean` and `median` speed is calculated after every second for the `speed` list. It was observed that when search radius is not correct, `mean` and `median` are very different. When the search radius is correct, `mean` and `median` are roughly the same. The search radius is adjusted proportionally to `mean` - `median` relation. 
 
 ### Results
 
