@@ -43,6 +43,10 @@ The search radius greatly affects the results. If it is too big, wrong `blob_fea
 
 ![ezgif com-optimize](https://github.com/fpenzar/water_speed_detection/assets/49754912/a4fc9d14-72e6-4869-8ba2-2c1f9e8a9d3a)
 
+### Behind the curtains
+
+![ezgif com-video-to-gif](https://github.com/fpenzar/water_speed_detection/assets/49754912/b8f2a034-7e73-4d1f-8c58-28a304510109)
+
 ### Benchmarking
 
 In % of execution time:
