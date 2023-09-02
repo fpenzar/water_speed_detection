@@ -1,6 +1,7 @@
 # Water flow speed detection
 
-Determine the water (river) flow speed from input video. The camera should be perpendicular to the water flow.
+Determine the water (river) flow speed from input video. The camera should be static and perpendicular to the water flow.
+Algorithm was developed for Geolux (https://www.geolux-radars.com/).
 
 ## Algorithm
 
