@@ -55,4 +55,9 @@ In % of execution time:
 * `image processing` -> 88.4%
 * `reading frames` -> 10.1%
 * `extracting blobs` -> 1.0%
-* `pairing features` -> 0.5% 
+* `pairing features` -> 0.5%
+
+
+### Additional note
+
+The code of the project is not available.
